@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './login.css',
 })
 export class Login {
-  title="Login"
+  // title="Login"
+  imageUrl="https://unsplash.com/s/photos/luxury-car"
+  isDisabled=false;
 }
