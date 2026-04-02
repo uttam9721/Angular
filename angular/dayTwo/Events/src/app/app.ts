@@ -19,4 +19,18 @@ export class App {
   onKeyUp(event: any) {
     console.log('Key released:', event.key);
   }
+
+  onHover(){
+    console.log('Mouse is hovering over the element!');
+  }
+
+  onMouseLeave(){
+    console.log('Mouse has left the element!');
+  }
+  onBlur(){
+    console.log('Input field lost focus!');
+  }
+  onFocus(){
+    console.log('Input field is focused!');
+  }
 }
