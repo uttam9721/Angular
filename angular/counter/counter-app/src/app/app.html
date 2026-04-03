@@ -4,3 +4,12 @@
 <button (click)="Increment()">Increment</button>
 <button (click)="Decrement()">Decrement</button>
 <button (click)="Reset()">Reset</button>
+
+
+
+<hr>
+<h1>Two way data binding</h1>
+
+<input type="text" #inputValue/>
+<button (click)="getEmail(inputValue.value)">Get Email</button>
+<p>{{email}}</p>

@@ -8,6 +8,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
+  email:string="";
   counter:number=0;
   Increment(){
     this.counter++;
@@ -18,4 +19,8 @@ export class App {
   Reset(){
     this.counter=0;
   }
+  getEmail(val:string){
+    this.email=val;
+  }
+
 }
